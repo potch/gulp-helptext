@@ -17,3 +17,22 @@ gulp.task('help', helptext({
   'server': 'Start the development server'
 }));
 ```
+
+Output looks like the following:
+
+```
+Registered tasks:
+
+lint    - Runs JSHint on your code
+styles  - Compiles stylus
+build   - Runs lint, styles
+connect
+watch
+server  - Start the development server
+          Runs build, connect, watch
+bump
+help    - Shis help message
+deploy
+default - Shows the help message
+          Runs help
+```
