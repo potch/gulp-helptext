@@ -1,6 +1,7 @@
 var chalk = require('chalk');
+var gulp = require('gulp');
 
-module.exports = function (gulp, descriptions) {
+module.exports = function (descriptions) {
   descriptions = descriptions || {};
   console.log('\n' + chalk.bold.yellow('Registered tasks:') + '\n');
   var tasks = Object.keys(gulp.tasks);
