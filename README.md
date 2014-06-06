@@ -11,7 +11,7 @@ var helptext = require('gulp-helptext');
 
 gulp.task('help', helptext({
   'default': 'Shows the help message',
-  'help': 'Shis help message',
+  'help': 'This help message',
   'styles': 'Compiles stylus',
   'lint': 'Runs JSHint on your code',
   'server': 'Start the development server'
