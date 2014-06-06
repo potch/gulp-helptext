@@ -31,7 +31,7 @@ watch
 server  - Start the development server
           Runs build, connect, watch
 bump
-help    - Shis help message
+help    - This help message
 deploy
 default - Shows the help message
           Runs help

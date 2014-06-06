@@ -1,6 +1,6 @@
 {
   "name": "gulp-helptext",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "pretty helptext for your gulp tasks",
   "main": "index.js",
   "scripts": {
