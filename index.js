@@ -13,7 +13,7 @@ module.exports = function (descriptions) {
     Object.keys(gulp.tasks).forEach(function (task) {
       var pretty = chalk.bold((task + indentString).substr(0,indent));
       var dep = gulp.tasks[task].dep;
-      var depString = dep.length ? 'Runs ' + dep.join(', ') : '';
+      var depString = dep.length ? 'Runs ' + dep.map(chalk.bold).join(', ') : '';
       if (task in descriptions) {
         console.log(pretty + ' - ' + descriptions[task]);
         if (dep.length) {
