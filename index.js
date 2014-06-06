@@ -18,7 +18,11 @@ module.exports = function (gulp, descriptions) {
         console.log(indentString + '   ' + depString);
       }
     } else {
-      console.log(pretty + ' - ' + depString);
+      if (dep.length) {
+        console.log(pretty + ' - ' + depString);
+      } else {
+        console.log(pretty);
+      }
     }
   });
   console.log('\n');
