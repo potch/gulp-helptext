@@ -1,0 +1,26 @@
+{
+  "name": "gulp-helptext",
+  "version": "0.0.0",
+  "description": "pretty helptext for your gulp tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Potch",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/potch/gulp-helptext.git"
+  },
+  "keywords": [
+    "gulp",
+    "help"
+  ],
+  "bugs": {
+    "url": "https://github.com/potch/gulp-helptext/issues"
+  },
+  "homepage": "https://github.com/potch/gulp-helptext",
+  "dependencies": {
+    "chalk": "^0.4.0"
+  }
+}
